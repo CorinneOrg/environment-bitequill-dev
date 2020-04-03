@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:bitequill/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:bitequill/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:bitequill/prow:hmacToken
+segmentWriteKey: vault:bitequill:segmentWriteKey
